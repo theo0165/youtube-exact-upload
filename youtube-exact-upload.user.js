@@ -1,9 +1,11 @@
 // ==UserScript==
 // @name         Youtube exact upload
 // @namespace    youtube-exact-upload
-// @version      0.1
+// @version      0.2
 // @description  Adds exact upload time to youtube videos
-// @author       Theo Sandell
+// @author       theo0165
+// @source       https://github.com/theo0165/youtube-exact-upload
+// @website      https://github.com/theo0165
 // @match        https://www.youtube.com/*
 // @grant        none
 // ==/UserScript==
