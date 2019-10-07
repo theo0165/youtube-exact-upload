@@ -31,7 +31,7 @@
     function parseDate(date){
         var months = ["jan", "feb", "mar", "apr", "may", "jun", "jul", "aug", "sep", "oct", "nov", "dec"];
 
-        return date.getDate() + " " + months[date.getMonth()] + ". " + date.getFullYear() + " " + (date.getHours() < 10 ? date.getHours() + "0" : date.getHours()) + ":" + (date.getMinutes() < 10 ? date.getMinutes() + "0" : date.getMinutes());
+        return date.getDate() + " " + months[date.getMonth()] + ". " + date.getFullYear() + " " + (date.getHours() < 10 ? "0" + date.getHours(): date.getHours()) + ":" + (date.getMinutes() < 10 ? "0" + date.getMinutes() : date.getMinutes());
     }
 
     if(YT_API_KEY != "" || typeof YT_API_KEY != "undefined"){
